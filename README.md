@@ -3,7 +3,7 @@ This repository provides the official code for **GeNER** (an automated dataset *
 
 ## Overview of GeNER
 
-GeNER allows you to build NER models for specific entity types of interest **without** human-labeled data and and rich dictionaries. The core idea is to **ask simple natural language questions** to an open-domain question answering (QA) system and then **retrieve phrases and sentences**, as shown in the query formulation and retrieval stages in the figure below. Please see our paper ([Simple Questions Generate Named Entity Recognition Datasets](https://arxiv.org/abs/2112.08808)) for details.
+GeNER allows you to build NER models for specific entity types of interest **without** human-labeled data and and rich dictionaries. The core idea is to **ask simple natural language questions** to an open-domain question answering (QA) system and then **retrieve phrases and sentences**, as shown in the query formulation and retrieval stages in the figure below.
 
 <div align="center">
       <img src="docs/images/overview.PNG" width="95%">
@@ -175,25 +175,4 @@ See `configs/README.md` for detailed descriptions of configuration files.
 
 For subsequent steps (i.e., retrieval, dictionary matching, and self-training), refer to the CoNLL-2003 example described above.
 
-## References
 
-Please cite our paper if you consider GeNER to be related to your work. Thanks!
-
-```bibtex
-@article{kim2021simple,
-      title={Simple Questions Generate Named Entity Recognition Datasets}, 
-      author={Hyunjae Kim and Jaehyo Yoo and Seunghyun Yoon and Jinhyuk Lee and Jaewoo Kang},
-      year={2021},
-      eprint={2112.08808},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-
-## Contact
-
-Feel free to email Hyunjae Kim `(hyunjae-kim@korea.ac.kr)` if you have any questions.
-
-## License
-
-See the LICENSE file for details.
