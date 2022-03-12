@@ -22,7 +22,7 @@ conda activate GeNER
 conda install pytorch=1.9.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 
 # Install GeNER
-git clone https://github.com/dmis-lab/GeNER.git
+Download this project
 cd GeNER
 pip install -r requirements.txt
 ```
